@@ -1,10 +1,7 @@
- Prerequisite 
+Prerequisite - jdk and Intellij
  
-1.JDK
-2.Intellij
-====================================
-* Rename .env_copy in to .evn
-====================================
+Rename .env_copy in to .evn
+
 Clone this repository
 
 How to run API

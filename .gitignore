@@ -31,6 +31,7 @@ build/
 
 src/main/webapp/node_modules
 src/main/webapp/.env
+src/main/.DS_Store
 ### VS Code ###
 .vscode/
 

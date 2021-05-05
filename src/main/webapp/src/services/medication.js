@@ -15,3 +15,19 @@ export const getMedicationDetails = async user_id => {
   }
 	
 }
+
+export const CreateNewMedication = async formData => {
+  
+  try {
+    const response = await axios.post(`${API_BASE_URL}/medication/add`, formData)
+    return response.data
+
+  } catch(error) {
+    console.log("error", error);
+    
+    return []
+  }
+
+}
+
+

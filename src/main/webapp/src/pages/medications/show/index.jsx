@@ -41,7 +41,7 @@ const ShowMedication = () => {
               <h2>View Medication</h2>
 
               <div>
-                {/* <Link to="/medication/add" className='btn btn-primary'>Add New Medication</Link> */}
+                <Link to={`/medication/add/${user_id}`} className='btn btn-primary'>Add New Medication</Link>
               </div>
             </div>
 

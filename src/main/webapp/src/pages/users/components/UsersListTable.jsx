@@ -8,7 +8,7 @@ import UsersListItem from './UsersListItem';
 const UsersListTable = () => {
 
 	const [users, setUsers] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(true);
 	const fetchUsers = () => {
 		
 		getUsersList()
